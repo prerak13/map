@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "map-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/map/MapWebPart.js",
+          "manifest": "./src/webparts/map/MapWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+
+    "jquery": "https://code.jquery.com/jquery-3.1.0.min.js",
+      "customjs": {
+        "path": "./src/js/custom.js",
+        "globalName": "customjs"
+        }
+        },
+ 
+  "localizedResources": {
+    "MapWebPartStrings": "lib/webparts/map/loc/{locale}.js"
+  }
+}

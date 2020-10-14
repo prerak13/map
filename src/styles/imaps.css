@@ -1,0 +1,24 @@
+.magGlass {
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: none;
+    width: 150px;
+    height: 150px;
+}
+.form-check{
+    float: right;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+.ms-Dialog-title{
+    font-weight: 500 !important;
+}
+.dialogsize{
+    width: 100%;
+}
+.ms-Dialog-subText{
+    font-size: 15px !important;
+    font-weight: 500;
+}
+
